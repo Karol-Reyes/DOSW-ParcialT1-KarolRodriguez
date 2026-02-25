@@ -1,4 +1,5 @@
 # DOSW-ParcialT1-KarolRodriguez
+# Karol Ximena Rodriguez Reyes
 ---
 ## PUNTO 1
 El diagrama de contexto generado para este caso de estudio es el siguiente:
