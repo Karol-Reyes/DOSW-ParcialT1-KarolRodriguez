@@ -36,3 +36,20 @@ Los mejores ejemplos de ello:
 - La reserva necesita tener obligatoriamente una asociación a una materia
 
 Por ello y mas limitaciones, es que la mejor manera de trabajar con este caso de uso es este patrón, ya que no solamente se encarga de verificar hermeticamente el cumplimiento de todas las posibles solicitudes con las que se esten trabajando, sino que tambien se secciona y delega la responsabilidad de paso a un solo lugar en específico sin la necesidad de exteneder innecesariamente 1 solo código
+
+---
+## PUNTO 3
+### Requerimientos del Sistema
+
+El sistema de SILABINFO, en terminos de requerimientos funcionales y NO funcionales, debe tener la capacidad de:
+
+**Requerimientos Funcionales**
+
+1. Verificar si un usuario es administrativo/docente o estudiante
+2. Confirmar o denegar la reserva de los usuarios segun las reglas de cada tipo de recurso
+3. Llevar una validación y disponibilidad actualizada sobre las diversas salas que pueden ser reservadas
+
+**Requerimientos no Funcionales**
+
+1. Mantener los colores alusivos al programa de Ingeniería de Sistemas
+2. Ser responsive
