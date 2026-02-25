@@ -53,3 +53,39 @@ El sistema de SILABINFO, en terminos de requerimientos funcionales y NO funciona
 
 1. Mantener los colores alusivos al programa de Ingeniería de Sistemas
 2. Ser responsive
+
+---
+## PUNTO 4
+**Caso de Uso 1**
+![UseCase1](DOSW-ParcialT1/docs/images/CasoUso1.png)
+
+**Historias de Usuario 1**
+
+***Usuario***
+
+- **COMO:** usuario de la plataforma SILABINFO
+- **QUIERO:** poder generar o eliminar reservas en la aplicación según diversos requerimientos necesarios para las actividades académicas a desarrollar a lo largo del semestre
+- **PARA:** poder desarrollar y compartir diversas actividades académicas con mis compañeros de estudio en un ambiente más relajado, con todos los dispositivos necesarios para el desarrollo de las mismas y sin tanta contaminación audiovisual en el entorno
+
+***Jefe Sistema***
+
+- **COMO:** Jefe del sistema de la plataforma SILABINFO
+- **QUIERO:** poder confirmar o denegar las reservas generadas por los usuarios a traves de la aplicación
+- **PARA:** brindar un espacio de desarrollo académico más cómodo y util para los usuarios que cumplan con las restricciones y especificaciones de cada sala
+
+**Caso de Uso 2**
+![UseCase2](DOSW-ParcialT1/docs/images/CasoUso2.png)
+
+**Historias de Usuario 2**
+
+***Usuario***
+
+- **COMO:** Usuario del sistema
+- **QUIERO:** poder verificar la disponibilidad de las salas
+- **PARA:** poder definir cuales salan estan disponibles y así, poder generar una reserva en la que sea más conveniente para las actividades que necesito realizar
+
+***Jefe del Sistema***
+
+- **COMO:** Jefe del sistema de la plataforma SILABINFO
+- **QUIERO:** validar la disponibilidad de las diversas salas que pueden ser reservadas por los usuarios de la plataforma
+- **PARA:** poder llevar un control actualizado y en tiempo real de las diversas reservas gestionadas hasta el momento y así, brindar la información a los usuarios de aquellas salas que aún presentan disponibilidad
