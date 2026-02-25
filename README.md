@@ -89,3 +89,64 @@ El sistema de SILABINFO, en terminos de requerimientos funcionales y NO funciona
 - **COMO:** Jefe del sistema de la plataforma SILABINFO
 - **QUIERO:** validar la disponibilidad de las diversas salas que pueden ser reservadas por los usuarios de la plataforma
 - **PARA:** poder llevar un control actualizado y en tiempo real de las diversas reservas gestionadas hasta el momento y así, brindar la información a los usuarios de aquellas salas que aún presentan disponibilidad
+
+---
+## PUNTO 5 
+
+*En DOSW-ParcialT1/docs/requeriments*
+
+---
+## PUNTO 6
+
+### 1. Épica:
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | EP-01 |
+| **Título** | Confirmar o denegar reserva |
+| **Descripción** | Porque se debe tener la capacidad de decidir entre aceptar o no la reserva generada por el usuario segun diversos aspectos |
+| **Stakeholder** | El sistema y jefe de sistema. |
+
+### 2. Historias
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | HU-01 |
+| **Título** | generar o eliminar reserva |
+| **Descripción** | **COMO:** usuario de la plataforma SILABINFO <br>**QUIERO:** poder generar o eliminar reservas en la aplicación según diversos requerimientos necesarios para las actividades académicas a desarrollar a lo largo del semestre <br>**PARA:** poder desarrollar y compartir diversas actividades académicas con mis compañeros de estudio en un ambiente más relajado, con todos los dispositivos necesarios para el desarrollo de las mismas y sin tanta contaminación audiovisual en el entorno|
+| **Prioridad** | *[Alta]* |
+| **Justificación** | Esta es una solicitud de nivel alto,  poder generar o eliminar las reservas segun las necesidades del usuario y, ademas de eso, de las limitaciones para cada reserva segun la sala impuesta por el sistema |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | HU-02 |
+| **Título** | Confirmar o denegar la reserva |
+| **Descripción** | **COMO:** Jefe del sistema de la plataforma SILABINFO <br>**QUIERO:** poder confirmar o denegar las reservas generadas por los usuarios a traves de la aplicación <br>**PARA:** brindar un espacio de desarrollo académico más cómodo y util para los usuarios que cumplan con las restricciones y especificaciones de cada sala|
+| **Prioridad** | *[Alta]* |
+| **Justificación** | Es una solicitud de alta prioridad porque sin esta respuesta, el funcionamiento de la aplicacion es nulo |
+
+### 3. Tareas:
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-01 |
+| **Título** | Verificar las condiciones de la reserva |
+| **ID de la Historia de Uso asociada** | HU-01 |
+| **Descripción** | Por medio del patron de diseño Change of Responsability, ir verificando cada unas de los requisitos que tiene la reserva antes de aceptarla, si se encuentra algun fallo, se detiene el proceso y se envia un mnesaje de denegación de la reserva |
+| **Tareas requisito** | información que ingresa el usuario sobre la reserva |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-02 |
+| **Título** | visualizar la aceptacion o denegación de la reserva |
+| **ID de la Historia de Uso asociada** | HU-02 |
+| **Descripción** | Diseñar e implementar la seccion donde el usuario pueda observar el proceso de su reserva |
+| **Tareas requisito** | TR-01 |
+
+| Campo | Descripción |
+|------|-------------|
+| **ID** | TR-03 |
+| **Título** | Confirmacion visual de la respuesta a la solicitud |
+| **ID de la Historia de Uso asociada** | HU-01 / HU-02 |
+| **Descripción** | implementar un mensaje o visual en donde se genere el rechazo de la reserva si no cumple con los requisitos solicitados, o en todo caso, con la aceptacion de la reserva y los detalles generales de esta misma. |
+| **Tareas requisito** | TR-01, TR-02 |
