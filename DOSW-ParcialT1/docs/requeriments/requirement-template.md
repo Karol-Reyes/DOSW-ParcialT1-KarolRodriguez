@@ -17,7 +17,7 @@ El sistema de SILABINFO tiene los siguientes requerimientos en la capacidad de c
 | **Precondiciones** | Para que el sistema cumpla con este requerimiento, SILABINFO debe tener previamente la información del usuario, la sala a solicitar y el cargo que cumple el usuario, ademas de fecha y hora de la reserva junto al tiempo a utilizar la misma, los elementos necesarios de la sala y la cantidad de personas que entraran en la reserva|
 | **Actor** | Usuario (monitor, estudiante, profesor) |
 | **Flujo principal** | 1. El actor debe ingresar los datos de la reserva (los solicitados en las precondiciones) <br>2. el sistema verifica que las condiciones cuplan con los requerimientos para solicitar la sala <br>3. el sistema acepta o niega la solicitud|
-| **Diagrama de caso de uso** | ![CasoUso1](DOSW-ParcialT1/docs/images/CasoUso1.png) |
+| **Diagrama de caso de uso** | ![CasoUso1](../images/CasoUso1.png) |
 | **Poscondiciones** | Se espera como resultado una confirmación de la solicitud o, una negación de la solicitud con un mensaje para intentarlo nuevamenete|
 
 
